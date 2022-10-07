@@ -1,0 +1,91 @@
+.mainFlatlistImprese {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+}
+
+@media only screen and (max-width: 900px) {
+    .mainFlatlistImprese {
+        display: none;
+    }
+  }
+.flatlistimpreseComponent {
+    width: 54%;
+    height:12vh;
+    margin-top: 2vw;
+    font-family: Ropa Sans;
+font-weight: 400;
+letter-spacing: 0.5px;
+border-width: 0.0px;
+-webkit-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+-moz-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+border-color: #aeaeae;
+text-indent: 10px;
+align-self: center;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+}
+.LogoPlaceholderImprese {
+    width: 75px;
+}
+.titolodescrizioneImpresa {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: normal;
+}
+.titoloImpresa {
+margin-bottom: 0;
+font-size: 20px;
+font-weight: 600;
+}
+.descrizioneImpresa {
+
+}
+.distanzaImprese {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    margin-right:20px 
+}
+.v1 {
+    border-left: 2px solid rgb(117, 119, 117);
+    height: 8vh;
+    margin-right: 1rem;
+}
+.distanzaImpresap {
+    margin-bottom: 0;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+
+}
+.donazioniImpresa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    margin-right:30px 
+}
+.donazioniimpresep {
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: normal;
+    margin-bottom: 0.5\vw;
+    
+}
+
+
+.scaricaappNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    margin-left: 1vw;
+    margin-top:1vw;
+
+}
+.ScaricaPng {
+    width: 60px;
+}
+.Scaricatext {
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.logodivNav {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top:1vw;
+}
+
+
+
+.cercadivNav {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 1vw;
+    margin-top:1vw;
+}
+.ButtonAccedi {
+background-color:#d04b4b ;
+border-width: 0px;
+padding-left:1rem;
+padding-right:1rem;
+padding-top:0.5rem;
+padding-bottom:0.5rem;
+color: white;
+font-size: 21px;
+font-family: Ropa Sans;
+font-weight: 400;
+letter-spacing: 0.5px;
+transition: 1.3s;
+cursor: pointer;
+}
+.ButtonAccedi:hover {
+    background-color:#da3737a2 ;
+  
+    }
+
+
+
+.LogoPng {
+    width: 230px;
+}
+
+@media screen and (max-width:800px) {
+    .LogoPng {
+       width: 130px;
+       margin-top: 1vw;
+    }
+}
+
+
+
+
+    .navbarunder {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: normal;
+        align-content: normal;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+    
+    
+    .impresenav {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        margin-left: 30vw;
+
+        
+    }
+
+    
+    .progettinav {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+     
+    }
+    
+    .nonprofitnav {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        margin-right: 30vw;
+       
+      
+    }
+    @media screen and (max-width:800px) {
+        .nonprofitnav {
+          
+            margin-right: 10vw;
+            font-size: 10px;
+           
+          
+        }
+        .impresenav {
+       
+            margin-left: 10vw;
+            margin-right: 4vw;
+            font-size: 10px;
+            
+        }
+        .navbarundernavlinks {
+            font-size: 10px;
+        }
+    }
+    .navbarundernavlinks {
+        color:#666666;
+        font-family: Ropa Sans;
+        letter-spacing: 1px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .navbarundernavlinks:hover {
+        color:#d04b4b;
+
+    }
+
+
+ 

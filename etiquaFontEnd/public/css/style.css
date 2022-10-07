@@ -1,0 +1,9 @@
+.text-red-400{
+    color:red;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.uploadImage{
+    display: none;
+}

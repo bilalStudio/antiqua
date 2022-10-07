@@ -1,0 +1,191 @@
+.TuoiProgettiCardDiv {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    align-items: normal;
+    align-content: normal;
+    -webkit-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+-moz-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+border-color: #aeaeae;
+margin-left: 15%;
+margin-right: 15%;
+border-radius: 2%;
+
+
+
+
+
+
+}
+
+
+.TuoiProgettiCardDivChild1 {
+ 
+
+}
+
+.TuoiProgettiCardDivChild2 {
+    margin-left: 8%;
+}
+
+.impreseSostenitriciTuoiProgettiDiv {
+
+    margin-left: 10rem;
+margin-top: 3rem;
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: center;
+
+}
+@media screen and (max-width: 1702px) {
+    .TuoiProgettiCardDivChild2 {
+        margin-left: -10%;
+    }
+  }
+  @media screen and (max-width: 1402px) {
+    .TuoiProgettiCardDivChild2 {
+        margin-left: -16%;
+    }
+  }
+  
+.impreseSostenitriciTuoiProgettiDiv2 {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center ;
+    text-align: center;
+    
+}
+
+.impreseSostenitriciTuoiProgettiDiv3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center ;
+    text-align: center;
+
+    
+}
+.vl {
+    border-left: 2px solid rgb(187, 184, 184);
+  height: 14vh;
+  margin-top: 4vh;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.ImpreseSostenitriciP {
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.nconsumatorip {
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.formTuoiProgettiDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center ;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    margin-right:2rem;
+    margin-left: 35%;
+}
+.inputtuoiprogetti1 {
+    height: 20vh;
+
+}
+.checkboxFormTuoiProgettiDiv {
+
+}
+
+.invioFormTuoiProgettiDiv {
+
+}
+.buttonLogintuoiprogetti {
+    background-color:#d04b4b ;
+    border-width: 0px;
+
+    padding-top:0.9rem;
+    padding-bottom:0.9rem;
+    color: white;
+    font-size: 21px;
+    font-family: Ropa Sans;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: 1.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 1262px) {
+    .TuoiProgettiCardDiv {
+        display: flex;
+        flex-direction: column;
+        align-content: center ;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+margin-right: 10%;
+
+    }
+    .ImpreseSostenitriciP {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .nconsumatorip {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    .TuoiProgettiCardDivChild2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-content: center ;
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .impreseSostenitriciTuoiProgettiDiv {
+      
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .formTuoiProgettiDiv {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 15%;
+    }
+    .MaindivImpreseCardsTuoi {
+     
+        margin-left: 0vh;
+        
+    }
+  }
+
+
+.nuovoProgettoButton {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+

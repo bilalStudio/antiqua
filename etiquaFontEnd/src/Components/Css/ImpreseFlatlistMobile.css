@@ -1,0 +1,86 @@
+
+
+
+.mainFlatlistImpreseMobile{
+    display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  -webkit-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+-moz-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+margin-left: 3rem;
+margin-right: 3rem;
+}
+.div1ImpreseFlatListMobile {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 2vh;
+}
+.div2ImpreseFlatListMobile {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.div3ImpreseFlatListMobile {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.div4ImpreseFlatListMobile {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.div5ImpreseFlatListMobile {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.LogoPlaceholderImpreseMobile {
+    width:100px;
+    
+}
+.descrizioneImpreseFlatListMobile {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.titoloImpreseFlatListMobile {
+    font-weight: 600;
+    font-size: 28px;
+}
+.distanzaImpreseFlatListMobile {
+    font-size: 28px;
+    font-weight: 600;
+}
+.donazioniImpreseFlatListMobile {
+    font-size: 28px;
+    font-weight: 600;
+}
+@media only screen and (min-width: 900px) {
+    .mainFlatlistImpreseMobile {
+        display: none;
+    }
+  }

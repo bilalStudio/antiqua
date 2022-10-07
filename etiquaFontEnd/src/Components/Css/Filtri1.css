@@ -1,0 +1,57 @@
+ .filter1div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: normal;
+ }
+ @media only screen and (max-width: 900px) {
+    .filter1div {
+        display: none;
+    }
+  }
+ .filter1child1 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+ }
+ .filter1child2 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.filter1child3 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.inputFilter1 {
+    width: 9rem;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+    font-family: Ropa Sans;
+font-weight: 400;
+letter-spacing: 0.5px;
+border-width: 0.0px;
+-webkit-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+-moz-box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+box-shadow: 5px 8px 30px -10px rgba(189,182,185,1);
+border-color: #aeaeae;
+text-indent: 10px;
+align-self: center;
+}
+.pFilter1 {
+    margin-top: 3.4vh;
+    margin-right: 1rem;
+}

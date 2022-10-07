@@ -1,0 +1,109 @@
+.HeaderPicture {
+width: 100%;
+margin-top: -2vh;
+
+}
+.PlaceholderImage {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+
+}
+.HeaderBarDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+    background-color: #f4f4f4;
+    margin-top: -0.3vw;
+  gap: 3rem;
+}
+.HeaderBarDivC1 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top: 1vh;
+  
+
+}
+.HeaderBarDivC2 {
+    display: flex;
+    flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;  
+  background-color: rgb(255, 208, 0);
+  height: 18rem;
+  padding-bottom:6vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.SostieniProgettoDiv {
+
+    margin-top: 20vh;
+    text-align: center;
+ 
+}
+
+.buttonLoginProgettoSingolo {
+    background-color:#e69c15 ;
+    border-width: 0px;
+
+    padding-top:1.9rem;
+    padding-bottom:1.9rem;
+    color: white;
+    font-size: 21px;
+    font-family: Ropa Sans;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: 1.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+
+ 
+ }
+ .SostieniProgettiH1 {
+
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-weight: 400;
+ }
+
+.barra {
+    width: 100%;
+}
+.BudgetRichiesto {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media screen and (max-width: 1502px) {
+    .HeaderBarDiv {
+    flex-direction: column;
+    }
+    .buttonLoginProgettoSingolo {
+
+ 
+     
+     }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
